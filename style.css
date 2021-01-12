@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 60%, rgba(148,187,233,1) 100%);
+}
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 375px;
+    background-color: white;
+    padding: 10px;
+}
+
+section {
+    padding: 10px;
+}
+
+h1 {
+    padding: 0;
+    margin: 10px 0;
+    font-size: 62px;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgb(204, 204, 204);
+}
+  
+th, td {
+    padding: 5px;
+}
+
+blockquote {
+    width: 100%;
+    margin: 0;
+    border-left: 5px solid rgba(148,187,233,1);
+    padding-left: 10px;
+}
+
+.headshot {
+    width: 100%;
+}
+
+.kerofoot {
+    width: 100%;
+}
+
